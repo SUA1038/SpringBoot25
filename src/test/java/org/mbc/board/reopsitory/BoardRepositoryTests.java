@@ -168,7 +168,7 @@ public class BoardRepositoryTests {
         log.info("다음페이지 여부 : " + result.hasNext());            // true
         log.info("시작페이지 여부 : " +  result.isFirst());           // true
 
-        //콘소렝 결과를 출력해보자
+        //콘솔에 결과를 출력해보자
         List<Board> boardList =  result.getContent(); // 페이징처리된 내용을 가져와라
 
         boardList.forEach (board -> log.info(board));

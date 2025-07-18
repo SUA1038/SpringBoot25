@@ -1,10 +1,9 @@
 
-                                                         ,,                           ,,                                  ,,
-`7MMM.     ,MMF'`7MM"""Yp,   .g8"""bgd       .g8"""bgd `7MM                         `7MM      `7MMF'     A     `7MF'     *MM
-  MMMb    dPMM    MM    Yb .dP'     `M     .dP'     `M   MM                           MM        `MA     ,MA     ,V        MM
-  M YM   ,M MM    MM    dP dM'       `     dM'       `   MM  ,pW"Wq.`7MM  `7MM   ,M""bMM         VM:   ,VVM:   ,V .gP"Ya  MM,dMMb.
-  M  Mb  M' MM    MM"""bg. MM              MM            MM 6W'   `Wb MM    MM ,AP    MM          MM.  M' MM.  M',M'   Yb MM    `Mb
-  M  YM.P'  MM    MM    `Y MM.             MM.           MM 8M     M8 MM    MM 8MI    MM          `MM A'  `MM A' 8M"""""" MM     M8
-  M  `YM'   MM    MM    ,9 `Mb.     ,'     `Mb.     ,'   MM YA.   ,A9 MM    MM `Mb    MM           :MM;    :MM;  YM.    , MM.   ,M9
-.JML. `'  .JMML..JMMmmmd9    `"bmmmd'        `"bmmmd'  .JMML.`Ybmd9'  `Mbod"YML.`Wbmd"MML.          VF      VF    `Mbmmd' P^YbmdP'
+___  _________  _____   _____ _                 _   _    _      _
+|  \/  || ___ \/  __ \ /  __ \ |               | | | |  | |    | |
+| .  . || |_/ /| /  \/ | /  \/ | ___  _   _  __| | | |  | | ___| |__
+| |\/| || ___ \| |     | |   | |/ _ \| | | |/ _` | | |/\| |/ _ \ '_ \
+| |  | || |_/ /| \__/\ | \__/\ | (_) | |_| | (_| | \  /\  /  __/ |_) |
+\_|  |_/\____/  \____/  \____/_|\___/ \__,_|\__,_|  \/  \/ \___|_.__/
+
 
