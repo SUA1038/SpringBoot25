@@ -24,7 +24,7 @@
             <th:block th:if="${param.logout != null}">  <!--파라미터에 logout이 있으면 -->
                 <h1>Logout(로그아웃 처리 됨)........</h1>
             </th:block>
-            <!--  701        th:if="${param.logout == null}"  logout 없으면 로그인 창-->
+                                                        <!--  701        th:if="${param.logout == null}"  logout 없으면 로그인 창-->
             <form id="registerForm" action="/member/login" method="post" th:if="${param.logout == null}">
                 <div class="input-group mb-3">
                     <span class="input-group-text">아이디</span>
@@ -49,6 +49,10 @@
                     </div>
                 </div>
             </form>
+            <!-- 카카오 로그인 링크 추가 -->
+            <div>
+                <a href="/oauth2/authorization/kakao">카카오톡 로그인</a>
+            </div>
 
         </div><!--end card body-->
     </div><!--end card-->
