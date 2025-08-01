@@ -50,7 +50,8 @@ dependencies {
 
     implementation 'org.springframework.boot:spring-boot-starter-web'       /* string-web */
     compileOnly 'org.projectlombok:lombok'                                  /* 롬북 */
-    annotationProcessor 'org.projectlombok:lombok'                          /* 롬북 */
+    annotationProcessor 'org.projectlombok:lombok'
+    runtimeOnly 'com.h2database:h2'/* 롬북 */
     testCompileOnly 'org.projectlombok:lombok'                              /* 롬북 */
     testAnnotationProcessor 'org.projectlombok:lombok'                      /* 롬북 */
 
