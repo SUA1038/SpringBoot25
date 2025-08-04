@@ -19,17 +19,17 @@
                     <form id="registerForm" action="/member/join" method="post">
                         <div class="input-group mb-3">
                             <span class="input-group-text">MID</span>
-                            <input type="text" name="mid" class="form-control">
+                            <input type="text" name="mid" class="form-control" placeholder="아이디를 입력해주세요.">
                         </div>
 
                         <div class="input-group mb-3">
                             <span class="input-group-text">MPW</span>
-                            <input type="password" name="mpw" class="form-control">
+                            <input type="password" name="mpw" class="form-control" placeholder="비밀번호를 입력해주세요.">
                         </div>
 
                         <div class="input-group mb-3">
                             <span class="input-group-text">EMAIL</span>
-                            <input type="email" name="email" class="form-control">
+                            <input type="email" name="email" class="form-control" placeholder="이메일을 입력해주세요.">
                         </div>
 
                         <div class="my-4">
@@ -56,6 +56,7 @@
     if(error && error === 'mid'){
         alert("동일한 아이디를 가진 계정이 존재합니다.")
     }
+
 
 
 </script>

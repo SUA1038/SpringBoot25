@@ -1,7 +1,11 @@
 package org.mbc.board.security.dto;
 
 
+import jakarta.validation.constraints.Email;
+import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.NotEmpty;
 import lombok.Data;
+import org.hibernate.validator.constraints.Length;
 
 @Data
 public class MemberJoinDTO {
@@ -12,7 +16,6 @@ public class MemberJoinDTO {
     private String email;
     private boolean del;
     private boolean social;
-
 
 }
 
