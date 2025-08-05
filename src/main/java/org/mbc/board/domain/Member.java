@@ -1,9 +1,6 @@
 package org.mbc.board.domain;
 
-import jakarta.persistence.ElementCollection;
-import jakarta.persistence.Entity;
-import jakarta.persistence.FetchType;
-import jakarta.persistence.Id;
+import jakarta.persistence.*;
 import lombok.*;
 
 import javax.management.relation.Role;
@@ -11,12 +8,13 @@ import java.util.HashSet;
 import java.util.Set;
 
 @Entity
+@Table(name="member")
 @Getter
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
 @ToString(exclude="roleSet")    // 연관된 테이블 제외
-public class Member extends BaseEntity{
+public class Member {
     // 회원가입용 엔티티
 
     @Id // 기본키 선언
@@ -62,5 +60,8 @@ public class Member extends BaseEntity{
     public void changeSocial(boolean social){
         this.social = social;
     }
+
+
+
 
 }
